@@ -1,32 +1,46 @@
-.movie-poster{
-  height: 500px;
-  width: 350px;
-  object-fit: cover;
-}
-
-
-.movie-container{
-  width: 500px;
-  height:500px;
-  padding: 100px;
-}
-
-/* .movie-specs{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
-
 .movie-summary{
-  font-size: 20px;
-  width: 350px;
-}
+  width: 500px;
+ }
 
-.movie-name{
-  font-size: 20px;
-}
+ .movie-container{
+  
+  width:  340px;
+  margin: 20px;
+   /* background-color: orange; */
+ 
+   
+ }
 
-.movie-rating{
+ .movie-poster{
+  object-fit: cover;
+   height:500px;
+  width: 340px;
+ }
+ .movie-rating{
   font-size: 20px;
-}
+ 
+ }
+ .movie-name{
+  text-align: center;
+ }
+
+ .movie-specs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .movie-summary{
+  font-size: 20px;
+  width: 340px;
+ }
+
+ .movie-list{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   
+ }
+
+ 
